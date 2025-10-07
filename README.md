@@ -43,7 +43,7 @@ This project aims to analyse credit risk using the Universidad de Santiago de Ch
 The dataset contains 1000 rows and 17 columns of loan applicant records.
 
 ### Data Transformation
-Data in columns such as age, loan duration and amount were applied in creating new columns to categorize the data provided in those columns.
+Data in columns such as `age`, `loan duration` and `amount` were applied in creating new columns to categorize the data provided in those columns.
 
 ### Breakdown of Analysis
 #### Key Metrics
@@ -51,7 +51,7 @@ Data in columns such as age, loan duration and amount were applied in creating n
 - **Default Rate:** **30%** (Count of default (NO)/ Total default multiplied by 100)
 
 #### Target Variable
-The default column is the target variable for the default risk assessment. With a 30% default (YES) against 70% default (NO). The default column enabled analysis of feature columns such as savings balance, checking balance, amount range, age bracket, loan duration and percent of income.
+The `default` column is the target variable for the default risk assessment. With a 30% default (YES) against 70% default (NO). The default column enabled analysis of feature columns such as `savings balance`, `checking balance`, `amount range`, `age bracket`, `loan duration` and `percent of income`.
 
 #### Detailed Findings
 - **Default Risk by Savings Balance:** Out of the 1000 total applicants, 817 applicants had a verified savings balance. The analysis showed a lower default percentage for savings balance between 500 – 100 DM and savings balance above 1000 DM, with the former at 17% default, and the latter at 12.5%. Savings balance less than 100 DM and savings balance between 100 – 500 DM carried a greater percentage of default, standing at over 30% for both category of savings balance.
@@ -75,5 +75,5 @@ The default column is the target variable for the default risk assessment. With 
 3.	**Require additional safeguard for younger applicants:** Applicants between 18 – 25 years have the highest default rate (36.01%) compared to other age bracket at around 26% default rate. Younger applicants may lack financial stability or experience. Co-signers or collateral should be a requirement to help mitigate risk and the loans should be set for smaller amounts.
 
 ### Limitations
-The savings balance and checking balance columns has a large number of   “unknown” as values. In my analysis of default risk by saving and checking balance columns, I ignored all unknown values and worked only with applicants with verified balance for both the savings and checking balance
+The `savings balance` and `checking balance` columns has a large number of   “unknown” as values. In my analysis of default risk by saving and checking balance columns, I ignored all unknown values and worked only with applicants with verified balance for both the savings and checking balance
 
