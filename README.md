@@ -9,6 +9,7 @@
 - [Data Transformation](#data-transformation)
 - [Breakdown of Analysis](#breakdown-of-analysis)
 - [Recommendations](#recommendations)
+- [Limitations](#limitations)
 
 ### Project Overview
 This project aims to analyse credit risk using the Universidad de Santiago de Chile credit risk dataset. The aim is to identify drivers of default risk among loan applicants, visualize patterns, and provide recommendations to reduce the risk of default. The analysis is presented through a dashboard designed with Microsoft Excel.
@@ -66,5 +67,7 @@ The default column is the target variable for the default risk assessment. With 
 2.	Cap loan amounts and durations: For high risk applicants, especially applicants with low savings and checking balance, the amount range of 10K – 20K should be made ineligible. A period of less than 24 months should be the enforced as the benchmark duration for loans.
 
 3.	Require additional safeguard for younger applicants: Applicants between 18 – 25 years have the highest default rate (36.01%) compared to other age bracket at around 26% default rate. Younger applicants may lack financial stability or experience. Co-signers or collateral should be a requirement to help mitigate risk and the loans should be set for smaller amounts.
+
+### Limitations
 
 
