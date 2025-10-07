@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Project Overview](#project-overview)
+- [Dashboard](#dashboard)
 - [Objectives](#objectives)
 - [Stakeholders](#stakeholders)
 - [Tools](#tools)
@@ -13,6 +14,10 @@
 
 ### Project Overview
 This project aims to analyse credit risk using the Universidad de Santiago de Chile credit risk dataset. The aim is to identify drivers of default risk among loan applicants, visualize patterns, and provide recommendations to reduce the risk of default. The analysis is presented through a dashboard designed with Microsoft Excel.
+
+#### Dashboard
+
+<img width="1304" height="508" alt="CREDIT RISK ANALYSIS DASHBOARD" src="https://github.com/user-attachments/assets/102290f6-79dd-4894-9da9-daea761c904f" />
 
 ### Objectives
 1. Default Risk Assessment: To uncover the pattern among loan applicants with a positive default. The default column is the target variable for the default risk assessment.
@@ -69,5 +74,5 @@ The default column is the target variable for the default risk assessment. With 
 3.	Require additional safeguard for younger applicants: Applicants between 18 – 25 years have the highest default rate (36.01%) compared to other age bracket at around 26% default rate. Younger applicants may lack financial stability or experience. Co-signers or collateral should be a requirement to help mitigate risk and the loans should be set for smaller amounts.
 
 ### Limitations
-
+The savings balance and checking balance columns has a large number of   “unknown” as values. In my analysis of default risk by saving and checking balance columns, I ignored all unknown values and worked only with applicants with verified balance for both the savings and checking balance
 
